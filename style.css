@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+
+#btn{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    font-size: 40px;
+    border-radius: 40px;
+}
+
+#btn:hover{
+    cursor: pointer;
+    scale: 1.1;
+    color: #a7a7a7 !important;
+}
+
+.note{
+    /* position: absolute; */
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid #333;
+    border-radius: 10PX;
+    resize: both;
+    overflow: hidden;
+    text-align: center;
+    padding: 32PX;
+}
+
+.note:hover{
+    scale: 1.02;
+}
+
+#container{
+    margin: 0 20px;
+    height: 100vh;
+    display: grid;
+    gap: 56px;
+    grid-template-columns: repeat(5, 1fr);
+}
